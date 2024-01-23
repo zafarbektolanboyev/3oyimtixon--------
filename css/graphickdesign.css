@@ -1,0 +1,197 @@
+.hero__container {
+    background-image: url("../images/graphic-design/desktop/bg-pattern-intro-graphic.svg");
+    background-color: #E7816B;
+    border-radius: 15px;
+    width: 1111px;
+}
+.hero__content {
+}
+.hero__content__title {
+    color: #FFF;
+    margin-left: 350px;
+    margin-bottom: 24px;
+    font-family: Jost;
+    font-size: 48px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 48px; /* 100% */
+    width: 730px;
+}
+.hero__content__deck {
+    color: #FFF;
+    font-family: Jost;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 26px; /* 162.5% */
+    width: 730px;
+    text-align: center;
+    margin-left: 130px;
+}
+.footer__container{
+    margin-top: 500px;
+}
+/* brands */
+.brands__container {
+    display: flex;
+    gap: 30px;
+}
+.container {
+}
+.brands__block {
+    border-radius: 15px;
+}
+.barnds__block__content {
+    width:350px;
+    border-radius: 15px;
+    flex-shrink: 0;
+    background-color:#FDF3F0;
+    padding: 32px;
+}
+.brands__block__content-title {
+    color: #E7816B;
+    text-align: center;
+    font-family: Jost;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 26px; /* 130% */
+    letter-spacing: 5px;
+    width: 286px;
+}
+.brands__block__content-description {
+    color: #333136;
+    text-align: center;
+    font-family: Jost;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 26px; /* 162.5% */
+    width: 286px;
+}
+.brands__block-img{
+    width: 350px;
+    border-radius: 15px;
+    height: 320px;
+    flex-shrink: 0;
+}
+/* designer */
+.designersection__container{
+    display: flex;
+    justify-content: space-between;
+    gap: 29px;
+    margin-top: 160px;
+    margin-bottom: 160px;
+}
+.appdesigner {
+    text-decoration: none;
+}
+.appdesigner__img {
+    border-radius: 15px;
+    background: #000;
+    width: 541px;
+    height: 308px;
+    flex-shrink: 0;
+}
+.appdesign__content {
+    margin-top: -200px;
+}
+.appdesign__title {
+    color: #FFF;
+    text-align: center;
+    font-family: Jost;
+    font-size: 40px;
+    font-style: normal;
+    font-weight: 500;x
+    line-height: 48px; /* 120% */
+    letter-spacing: 2px;
+    margin-bottom: 24px;
+}
+.appdesign__deck{
+    color: #FFF;
+    font-family: Jost;
+    font-size: 15px;
+    font-style: normal;
+    font-weight: 500;
+    margin-left: 172px;
+    line-height: normal;
+    letter-spacing: 5px;
+    text-decoration: none;
+    text-transform: uppercase;
+}
+.webdesigner {
+    text-decoration: none;
+    margin-left: -600px;
+
+}
+.webdesign__title{
+    color: #FFF;
+    text-align: center;
+    font-family: Jost;
+    font-size: 40px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 48px; /* 120% */
+    letter-spacing: 2px;
+    margin-bottom:24px;
+}
+.webdesign__deck{
+    color: #FFF;
+    font-family: Jost;
+    font-size: 15px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+    letter-spacing: 5px;
+    margin-left: 185px;
+    text-transform: uppercase;
+    text-decoration: none;
+}
+.webdesigner__img{
+    border-radius: 15px;
+    background: #000;
+    width: 541px;
+    height: 308px;
+    flex-shrink: 0;
+}
+.webdesign__content{
+    margin-top: -200px;
+    margin-right: -50px;
+}
+@media (max-width:375px){
+    .hero__container{
+        flex-direction: column;
+        width: 675px;
+        height: 320px;
+    }
+    .hero__content{
+        width: 327px;
+        height: 110px;
+        justify-content: center;
+        flex-shrink: 0;
+
+    }
+    .hero__content__title{
+        justify-content: center;
+        width: 337px;
+        margin-left: -100px;
+    }
+    .hero__content-desc{
+        width: 327px;
+        text-align: center;
+        justify-content: center;
+    }
+    .brands__container{
+        flex-direction: column;
+    }
+    .designersection__container{
+        flex-direction: column;
+    }
+    .webdesigner{
+        margin-top: 20px;
+        margin-left: 5px;
+    }
+    .brands__container{
+        flex-direction: column;
+    }
+}

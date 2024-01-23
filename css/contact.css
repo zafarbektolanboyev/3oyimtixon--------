@@ -1,0 +1,205 @@
+.hero__input__wrapper{
+    width: 380px;
+    height: 371px;
+    flex-shrink: 0;
+}
+.hero__input__wrapper-data{
+    height: 40px;
+    width: 100%;
+    position: relative;
+}
+.hero__input__wrapper-data input{
+    width: 380px;
+    height: 38px;
+    flex-shrink: 0;
+    border: none;
+    font-size: 17px;
+    background-color: #E7816B;
+    border-bottom: 2px solid silver;
+    
+}
+.hero__input__wrapper-data input:focus ~{
+    transform: translateY(-20px);
+    font-size: 15px;
+    border: none;
+    color: grey; 
+}
+.hero__input__wrapper-data input::placeholder{
+    position: absolute;
+    bottom: 10px;
+    left: 0;
+    transition: all 0.3s ease;
+    pointer-events: none;
+    color: #FFF;
+    font-family: Jost;
+    font-size: 15px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 26px; /* 173.333% */
+    margin-top: 25px;
+}
+.hero__input__wrapper-data textarea{
+    height: 100%;
+    width: 100%;
+    border: none;
+    font-size: 17px;
+    background-color: #E7816B;
+    border-bottom: 2px solid silver;
+}
+.hero__input__wrapper-data textarea::placeholder{
+    position: absolute;
+    bottom: 10px;
+    left: 0;
+    transition: all 0.3s ease;
+    pointer-events: none;
+    color: #FFF;
+    font-family: Jost;
+    font-size: 15px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 26px; /* 173.333% */
+    margin-top: 25px;
+}
+.hero__input__wrapper-btn{
+    width: 152px;
+    height: 56px;
+    flex-shrink: 0;
+    border-radius: 8px;
+    border: none;
+    background: #FFF;
+    color: #333136;
+    text-align: center;
+    font-family: Jost;
+    font-size: 15px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+    letter-spacing: 1px;
+    text-transform: uppercase;
+    transition: all 0.5s;
+    margin-top: 24px;
+}
+.hero__input__wrapper-btn:hover{
+    background-color: #e78f7b;
+    color: #FFF;
+}
+.main__container {
+    background-image: url("../images/contact/desktop/bg-pattern-hero-desktop.svg");
+    border-radius: 15px;
+    background: #E7816B;
+    width: 1111px;
+    flex-shrink: 0;
+    gap: 90px;
+    padding-right: 96px;
+    display: flex;
+}
+.container {
+}
+.hero__content {
+    width: 540px;
+    height: 184px;
+    flex-shrink: 0;
+}
+.hero__content-title {
+    color: #FFF;
+    font-family: Jost;
+    font-size: 48px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 48px; /* 100% */
+    width: 540px;
+    margin-bottom: 32px;
+}
+.hero__content-desc {
+    color: #FFF;
+    font-family: Jost;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 26px; /* 162.5% */
+    width: 445px;
+}
+
+.footer__container{
+    margin-top: 500px;
+}
+/* city */
+.city__container {
+    width: 1110px;
+    height: 364px;
+    flex-shrink: 0;
+    display: flex;
+    gap: 30px;
+    margin-right: 130px;
+}
+.container {
+}
+.city__block {
+    width: 350px;
+    height: 364px;
+    flex-shrink: 0;
+}
+.city__block__img {
+}
+.city__block__content {
+    margin-left: 10px;
+}
+.city__block__content__title {
+    color: #333136;
+    font-family: Jost;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 26px; /* 130% */
+    letter-spacing: 5px;
+    width: 350px;
+    margin-bottom: 32px;
+}
+.city__block__content__btn {
+    border-radius: 8px;
+    background: #E7816B;
+    width: 152px;
+    height: 56px;
+    border: none;
+    color: #FFF;
+    font-family: Jost;
+    font-size: 15px;
+    font-style: normal;
+    font-weight: 500;
+    margin-left: 20px;
+    line-height: normal;
+    letter-spacing: 1px;
+    text-transform: uppercase;
+    flex-shrink: 0;
+}
+.city__block__content__btn:hover{
+    border-radius: 8px;
+    background: #FFAD9B;
+    width: 152px;
+    height: 56px;
+    flex-shrink: 0;
+}
+@media (max-width:375px){
+    .main__container{
+        flex-direction: column;
+        max-width: 375px;
+    }
+    .hero__content{
+        max-width: 327px;
+        margin-bottom: 48px;
+    }
+    .hero__content-title{
+        max-width: 327px;
+    }
+    .hero__content-desc{
+        max-width: 327px;
+    }
+}
+@media (max-width:375px){
+    .city__container{
+        max-width: 350px;
+        flex-direction: column;
+        margin-top: 120px;
+        margin-bottom: 1100px;
+    } 
+}

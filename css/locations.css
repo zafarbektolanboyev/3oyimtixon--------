@@ -1,0 +1,316 @@
+/* canadamaps */
+.canada__maps {
+    width: 1110px;
+    height: 326px;
+    flex-shrink: 0;
+    display: flex;
+    gap: 30px;
+    margin-bottom: 32px;
+    margin-top: -70px;
+}
+.canada__maps__content {
+    width: 730px;
+    flex-shrink: 0;
+    padding: 88px 95px;
+    border-radius: 15px;
+    background: #FDF3F0;
+}
+.canada__maps__content-title {
+    color: #E7816B;
+    font-family: Jost;
+    font-size: 40px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 48px; /* 120% */
+    width: 445px;
+    margin-bottom: 24px;
+}
+.canada__maps__content-adres {
+    display: flex;
+    gap: 30px;
+}
+.canada__maps__content__adres-office {
+    color: #333136;
+    font-family: Jost;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 700;
+    width: 255px;
+    line-height: 26px; /* 162.5% */
+}
+.canada__maps__content__adres-office span{
+    color: #333136;
+    font-family: Jost;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 26px;
+}
+.canada__maps__content__adres-contact {
+    color: #333136;
+    font-family: Jost;
+    font-size: 16px;
+    font-style: normal;
+    width: 255px;
+    font-weight: 700;
+    line-height: 26px; /* 162.5% */
+}
+.canada__maps__content__adres-contact span{
+    color: #333136;
+    font-family: Jost;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 26px;
+}
+.canada__img {
+}
+.canada__img-img {
+    width: 350px;
+    height: 326px;
+    flex-shrink: 0;
+    border-radius: 15px;
+    background: #FDF3F0;
+}
+/* australia maps */
+.australia__maps {
+    display: flex;
+    margin-bottom: 32px;
+    margin-top: 32px;
+}
+.australia__maps__content {
+    padding: 88px 95px;
+    background: #FDF3F0;
+    width: 820px;
+    margin-left: 30px;
+    border-radius: 15px;
+}
+.australia__img {
+}
+.australia__img-img {
+    width: 350px;
+    height: 326px;
+    flex-shrink: 0;
+    border-radius: 15px;
+}
+.australia__maps__content-title {
+    color: #E7816B;
+    font-family: Jost;
+    font-size: 40px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 48px; /* 120% */
+    margin-bottom: 24px;
+}
+.australia__maps__content-adres {
+    width: 540px;
+    height: 78px;
+    flex-shrink: 0;
+    gap: 30px;
+    display: flex;
+}
+.australia__maps__content__adres-office {
+    color: #333136;
+    font-family: Jost;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 26px; /* 162.5% */
+    width: 255px;
+}
+.australia__maps__content__adres-office span{
+    color: #333136;
+    font-family: Jost;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 26px;
+}
+.australia__maps__content__adres-contact {
+    color: #333136;
+    font-family: Jost;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 26px; /* 162.5% */
+}
+.australia__maps__content__adres-contact span{
+    color: #333136;
+    font-family: Jost;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 26px;
+}
+/* unking */
+.unking__maps {
+    width: 1110px;
+    gap: 30px;
+    display: flex;
+    margin-top: 32px;
+    margin-bottom: 160px;
+}
+.unking__maps__content {
+    width: 730px;
+    height: 500px;
+    flex-shrink: 0;
+    padding: 88px 95px;
+    border-radius: 15px;
+    background: #FDF3F0;
+}
+.unking__maps__content-title {
+    color: #E7816B;
+    font-family: Jost;
+    font-size: 40px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 48px; /* 120% */
+    width: 445px;
+    margin-bottom: 24px;
+}
+.unking__maps__content-adres {
+    display: flex;
+    gap: 30px;
+}
+.unking__maps__content__adres-office {
+    color: #333136;
+    font-family: Jost;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 700;
+    width: 255px;
+    line-height: 26px; /* 162.5% */
+}
+.unking__maps__content__adres-contact {
+    color: #333136;
+    font-family: Jost;
+    font-size: 16px;
+    font-style: normal;
+    width: 255px;
+    font-weight: 700;
+    line-height: 26px; /* 162.5% */
+}
+.unking__img {
+}
+.unking__img-img {
+    width: 350px;
+    height: 326px;
+    flex-shrink: 0;
+    border-radius: 15px;
+    background: #FDF3F0;
+    margin-left: 665px;
+    margin-top: -215px;
+}
+@media (max-width:375px){
+    .maps__container{
+        flex-direction: column;
+    }
+    .canada__maps{
+        flex-direction: column;
+        margin-bottom: 600px;
+        max-width: 327px;
+        margin-top: 100px;
+    }
+    .canada__img{
+        margin-top: -300px;
+    }
+    .canada__img-img{
+        width: 410px;
+        height: 320px;
+        margin-left: -100px;
+    }
+    .canada__maps__content{
+        margin-bottom: -400px;
+        max-width: 410px;
+        margin-left: -100px;
+    }
+    .canada__maps__content-title{
+        max-width: 327px;
+        margin-top: 80px;
+        text-align: center;
+    }
+    .canada__maps__content-adres{
+        flex-direction: column;
+    }
+    .canada__maps__content__adres-office{
+        max-width: 327px;
+        text-align: center;
+    }
+    .canada__maps__content__adres-contact{
+        max-width: 327px;
+        text-align: center;
+    }
+    /* australi */
+    .australia__maps{
+        flex-direction: column;
+        margin-bottom: 600px;
+        max-width: 327px;
+        margin-top: 50px;
+    }
+    .australia__img{
+        margin-top: -300px;
+    }
+    .australia__img-img{
+        width: 410px;
+        height: 320px;
+        margin-left: -100px;
+    }
+    .australia__maps__content{
+        margin-bottom: -400px;
+        max-width: 410px;
+        margin-left: -100px;
+    }
+    .australia__maps__content-title{
+        max-width: 327px;
+        margin-top: 80px;
+        text-align: center;
+    }
+    .australia__maps__content-adres{
+        flex-direction: column;
+    }
+    .australia__maps__content__adres-office{
+        max-width: 327px;
+        text-align: center;
+    }
+    .australia__maps__content__adres-contact{
+        max-width: 327px;
+        text-align: center;
+    }
+    /* unking */
+    .unking__maps{
+        flex-direction: column;
+        margin-bottom: 600px;
+        max-width: 327px;
+        margin-top: 50px;
+    }
+    .unking__img{
+        margin-top: -300px;
+    }
+    .unking__img-img{
+        width: 410px;
+        height: 320px;
+        margin-left: -100px;
+    }
+    .unking__maps__content{
+        margin-bottom: -400px;
+        max-width: 410px;
+        margin-left: -100px;
+    }
+    .unking__maps__content-title{
+        max-width: 327px;
+        margin-top: 80px;
+        text-align: center;
+    }
+    .unking__maps__content-adres{
+        flex-direction: column;
+    }
+    .unking__maps__content__adres-office{
+        max-width: 327px;
+        text-align: center;
+    }
+    .unking__maps__content__adres-contact{
+        max-width: 327px;
+        text-align: center;
+    }
+}
+
